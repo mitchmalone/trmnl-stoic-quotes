@@ -8,7 +8,7 @@ with open('quotes.json', 'r') as quotes:
 	QUOTES = json.load(quotes)
 
 @app.route('/')
-def hello_world():
+def get_quoote():
 	selected = random.choice(QUOTES)
 	return jsonify(selected)
 
