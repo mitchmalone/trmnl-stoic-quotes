@@ -39,7 +39,7 @@ gcloud run deploy [SERVICE_NAME] --image gcr.io/[PROJECT_ID]/[IMAGE_NAME] --plat
   <div class="columns">
     <div class="column">
       <div class="markdown gap--large">
-        <span style="font-size: 20px;">{{quote}}</span>
+        <span style="font-size: 20px;">{{text}}</span>
         <span style="font-size: 16px;">{{author}}</span>
       </div>
     </div>
